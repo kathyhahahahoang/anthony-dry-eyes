@@ -10,11 +10,8 @@ function Hero() {
         <div className={styles["hero-contents"]}>
           <div className={styles["hero-text"]}>
             <div className={styles["hero-text-contents"]}>
-              <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit</h1>
-              <h3>
-                Eeserunt similique iure voluptatem consequuntur nemo obcaecati,
-                ut dolorum assumenda. Quibusdam!
-              </h3>
+              <h1>Are dry eyes affecting your quality of life?</h1>
+              <h3>We can help you find solutions to improve your eye health</h3>
               <ul className={styles["list-container"]}>
                 <li className={styles["list-item"]}>
                   <RiCheckFill />
@@ -22,11 +19,11 @@ function Hero() {
                 </li>
                 <li className={styles["list-item"]}>
                   <RiCheckFill />
-                  <p>Reason 1</p>
+                  <p>Reason 2</p>
                 </li>
                 <li className={styles["list-item"]}>
                   <RiCheckFill />
-                  <p>Reason 1</p>
+                  <p>Reason 3</p>
                 </li>
               </ul>
               <button className={styles.button}>Click</button>

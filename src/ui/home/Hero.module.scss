@@ -18,11 +18,13 @@
 
 .anthony {
   position: absolute;
+  font-family: var(--font-sans-serif);
+  text-transform: uppercase;
   color: var(--color-black);
   font-size: 17rem;
   left: 50%;
   transform: translateX(-50%);
-  top: -11rem;
+  top: -16rem;
 }
 
 .hero-contents {

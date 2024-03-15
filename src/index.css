@@ -40,6 +40,9 @@ html {
   font-size: 62.5%;
   background-color: #f5f5f5;
   color: #020617;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 ul {
@@ -56,6 +59,15 @@ button {
   text-transform: uppercase;
   transition: all 0.5s;
   align-self: start;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
