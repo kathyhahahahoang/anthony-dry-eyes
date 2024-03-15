@@ -10,13 +10,11 @@ function Hero() {
         <div className={styles["hero-contents"]}>
           <div className={styles["hero-text"]}>
             <div className={styles["hero-text-contents"]}>
-              <p className={styles["text-header"]}>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit
-              </p>
-              <p className={styles["text-subheader"]}>
+              <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit</h1>
+              <h3>
                 Eeserunt similique iure voluptatem consequuntur nemo obcaecati,
                 ut dolorum assumenda. Quibusdam!
-              </p>
+              </h3>
               <ul className={styles["list-container"]}>
                 <li className={styles["list-item"]}>
                   <RiCheckFill />

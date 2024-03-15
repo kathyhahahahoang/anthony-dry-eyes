@@ -10,10 +10,10 @@ function ConsultationSection() {
       </div>
       <div className={styles["text-container"]}>
         <div className={styles["text-box"]}>
-          <p className={styles.header}>Not sure if you have dry eyes?</p>
-          <p className={styles.subheader}>
+          <h1 className={styles.header}>Not sure if you have dry eyes?</h1>
+          <h3 className={styles.subheader}>
             Here is a list of symptoms commonly associated with dry eyes:
-          </p>
+          </h3>
           <ul className={styles["list-container"]}>
             <li className={styles["list-item"]}>
               <RiArrowRightLine />
