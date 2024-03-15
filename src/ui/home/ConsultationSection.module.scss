@@ -1,6 +1,6 @@
 .container {
-  background-color: skyblue;
   display: flex;
+  color: var(--color-blue-dark);
 }
 
 .picture-container {
@@ -19,26 +19,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: honeydew;
 }
 
 .text-box {
-  background-color: chartreuse;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
 .list-container {
-  background-color: rosybrown;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
 .list-item {
-  background-color: goldenrod;
   display: flex;
   gap: 1rem;
   font-size: 2rem;
+  color: var(--color-turquoise-med);
 }

@@ -1,5 +1,6 @@
 .container {
-  background-color: brown;
+  background-color: var(--color-turquoise-dark);
   padding: 10rem 25rem;
-  font-size: 8rem;
+  color: var(--color-white);
+  text-align: center;
 }

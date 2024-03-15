@@ -1,13 +1,13 @@
 .container {
-  background-color: var(--color-white);
+  background-color: var(--color-peach-light);
   width: 100vw;
   height: 90vh;
   display: flex;
-  color: white;
+  color: var(--color-white);
 }
 
 .hero-container {
-  background-color: var(--color-blue);
+  background-color: var(--color-turquoise-med);
   width: 100%;
   height: 75%;
   padding: 0 25rem;

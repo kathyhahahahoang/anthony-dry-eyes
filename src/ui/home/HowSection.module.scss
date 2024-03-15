@@ -1,23 +1,23 @@
 .container {
   width: 100vw;
-  background-color: var(--color-grey);
+  background-color: var(--color-bg);
   padding: 10rem 25rem;
 }
 
 .section-header {
   text-align: center;
+  color: var(--color-turquoise-med);
 }
 
 .how-container {
   margin-top: 5rem;
-  background-color: forestgreen;
   display: grid;
   grid-template-columns: repeat(3, 30%);
   justify-content: space-between;
 }
 
 .how-card {
-  background-color: aqua;
+  background-color: var(--color-peach-med);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,8 +34,10 @@
 
 .title {
   text-align: center;
+  color: var(--color-blue-dark);
 }
 
 .text {
   font-size: 1.6rem;
+  color: var(--color-blue-dark);
 }
