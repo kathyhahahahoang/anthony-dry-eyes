@@ -2,10 +2,10 @@
   width: 100vw;
   background-color: var(--color-bg);
   padding: 10rem 25rem;
+  text-align: center;
 }
 
 .section-header {
-  text-align: center;
   color: var(--color-turquoise-med);
 }
 
@@ -39,5 +39,6 @@
 
 .text {
   font-size: 1.6rem;
+  line-height: 2.6rem;
   color: var(--color-blue-dark);
 }

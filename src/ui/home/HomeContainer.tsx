@@ -1,3 +1,4 @@
+import NavBar from "../NavBar";
 import CauseSection from "./CauseSection";
 import ConsultationSection from "./ConsultationSection";
 import Heading from "./Heading";
@@ -8,6 +9,7 @@ import HowSection from "./HowSection";
 function HomeContainer() {
   return (
     <div className={styles.container}>
+      <NavBar />
       <Hero />
       <HowSection />
       <Heading />
