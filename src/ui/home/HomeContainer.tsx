@@ -1,3 +1,4 @@
+import CauseSection from "./CauseSection";
 import ConsultationSection from "./ConsultationSection";
 import Heading from "./Heading";
 import Hero from "./Hero";
@@ -11,6 +12,7 @@ function HomeContainer() {
       <HowSection />
       <Heading />
       <ConsultationSection />
+      <CauseSection />
     </div>
   );
 }

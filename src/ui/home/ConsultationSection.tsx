@@ -4,7 +4,7 @@ import { RiArrowRightLine } from "@remixicon/react";
 
 function ConsultationSection() {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles["picture-container"]}>
         <img src={work4} />
       </div>
@@ -50,7 +50,7 @@ function ConsultationSection() {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

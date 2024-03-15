@@ -1,0 +1,37 @@
+.container {
+  background-color: var(--color-peach-light);
+  padding: 10rem 25rem;
+  color: var(--color-turquoise-dark);
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.cause-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 7rem;
+  margin-top: 10rem;
+}
+
+.cause-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  text-align: center;
+  width: 21rem;
+}
+
+.picture {
+  border-radius: 500px;
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.text {
+  font-size: 2rem;
+}

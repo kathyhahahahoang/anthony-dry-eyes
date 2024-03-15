@@ -18,13 +18,15 @@
 
 .anthony {
   position: absolute;
-  font-family: var(--font-sans-serif);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   text-transform: uppercase;
   color: var(--color-black);
   font-size: 17rem;
   left: 50%;
   transform: translateX(-50%);
-  top: -16rem;
+  top: -12rem;
 }
 
 .hero-contents {
