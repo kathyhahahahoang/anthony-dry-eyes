@@ -1,6 +1,8 @@
 import { Outlet, ScrollRestoration, useNavigation } from "react-router-dom";
 import styles from "./AppLayout.module.scss";
-import NavBar from "./NavBar";
+import NavBar from "./NavBar.tsx";
+import LoadingSpinner from "../components/LoadingSpinner.tsx";
+import Footer from "../components/Footer.tsx";
 
 function AppLayout() {
   const navigation = useNavigation();
