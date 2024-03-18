@@ -1,0 +1,18 @@
+.container {
+  background-color: var(--color-sand-med);
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 25rem;
+}
+
+.logo {
+  font-size: 4rem;
+}
+
+.content-container {
+  display: flex;
+  gap: 4rem;
+  font-size: 1.4rem;
+}
