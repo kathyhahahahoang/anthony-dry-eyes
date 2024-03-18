@@ -1,45 +1,11 @@
 import styles from "./Hero.module.scss";
-import doctor from "../../assets/img/doctor.jpg";
+import felix from "../../assets/img/felix.jpg";
 import { RiCheckFill } from "@remixicon/react";
-// import { useEffect, useState } from "react";
 
 function Hero() {
-  // const [isScrolled, setScrolled] = useState(false);
-  // const [isMobile, setIsMobile] = useState(window.innerWidth < 650);
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll, { passive: true });
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-
-  // const handleScroll = () => {
-  //   if (window.scrollY > 150) {
-  //     setScrolled(true);
-  //   } else {
-  //     setScrolled(false);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("resize", updateMedia);
-  //   return () => window.removeEventListener("resize", updateMedia);
-  // }, []);
-
-  // const updateMedia = () => {
-  //   setIsMobile(window.innerWidth < 650);
-  // };
-
-  // const scrolledAnthony = isScrolled
-  //   ? `${styles["scrolled-Anthony"]}`
-  //   : `${styles.anthony}`;
-
   return (
     <div className={styles.container}>
       <div className={styles["hero-container"]}>
-        {/* <p className={scrolledAnthony}>Anthony</p> */}
         <div className={styles["hero-contents"]}>
           <div className={styles["hero-text"]}>
             <div className={styles["hero-text-contents"]}>
@@ -63,7 +29,7 @@ function Hero() {
             </div>
           </div>
           <div className={styles["hero-picture"]}>
-            <img src={doctor} />
+            <img src={felix} />
           </div>
         </div>
       </div>

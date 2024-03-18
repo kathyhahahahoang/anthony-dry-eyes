@@ -1,0 +1,163 @@
+.container {
+  height: 60rem;
+  width: 120rem;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  background-color: var(--color-turquoise-light);
+
+  @media (max-width: 1400px) {
+    width: 100%;
+  }
+
+  @media (max-width: 1400px) {
+    height: 52rem;
+  }
+
+  @media (max-width: 1000px) {
+    height: 42rem;
+  }
+
+  @media (max-width: 650px) {
+    flex-direction: column;
+    height: 36rem;
+  }
+
+  @media (max-width: 500px) {
+    height: 43rem;
+  }
+}
+
+.picture-container {
+  width: 50%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.reviews-container {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews {
+  position: absolute;
+  transition: transform 1s;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+
+  @media (max-width: 650px) {
+    gap: 2rem;
+  }
+}
+
+.tour {
+  color: var(--color-red-dark);
+
+  @media (max-width: 800px) {
+    font-size: var(--font-xl);
+  }
+}
+
+.review {
+  font-size: var(--font-med);
+  color: var(--color-blue-dark);
+
+  @media (max-width: 800px) {
+    font-size: var(--font-small);
+  }
+
+  @media (max-width: 650px) {
+    font-size: var(--font-med);
+  }
+}
+
+.name {
+  font-size: var(--font-med);
+  font-weight: 600;
+  color: var(--color-red-dark);
+
+  @media (max-width: 800px) {
+    font-size: var(--font-small);
+  }
+
+  @media (max-width: 650px) {
+    font-size: var(--font-med);
+  }
+}
+
+.buttons {
+  position: absolute;
+}
+
+.button {
+  width: 4rem;
+  height: 4rem;
+  color: var(--color-turquoise-dark);
+  z-index: 400;
+
+  @media (max-width: 800px) {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+.button-left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -10rem;
+  border: none;
+  padding: none;
+}
+
+.button-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -10rem;
+  border: none;
+  padding: none;
+  z-index: 90;
+}
+
+.dots {
+  width: 100%;
+  height: 1rem;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  z-index: 200;
+  position: absolute;
+  bottom: -2rem;
+}
+
+.dot {
+  cursor: pointer;
+  height: 0.8rem;
+  width: 0.8rem;
+  margin: 0px 6px;
+  background-color: var(--color-sand-med);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active-dot {
+  background-color: var(--color-turquoise-dark);
+}
