@@ -1,4 +1,4 @@
-import NavBar from "../NavBar";
+import HomeNavBar from "../HomeNavBar.tsx";
 import CauseSection from "./CauseSection";
 import ConsultationSection from "./ConsultationSection";
 import Heading from "./Heading";
@@ -11,7 +11,7 @@ import Footer from "../../components/Footer.tsx";
 function HomeContainer() {
   return (
     <div className={styles.container}>
-      <NavBar />
+      <HomeNavBar />
       <Hero />
       <HowSection />
       <Heading />

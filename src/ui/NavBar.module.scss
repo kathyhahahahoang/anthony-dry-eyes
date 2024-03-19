@@ -1,15 +1,9 @@
 .container {
-  width: 100vw;
-  height: 23vh;
-  position: fixed;
-}
-
-.scrolled-container {
-  position: fixed;
+  background-color: var(--color-peach-light);
   width: 100vw;
   height: 13rem;
   padding: 1.4rem;
-  background-color: var(--color-peach-light);
+  position: fixed;
 }
 
 .nav-container {
@@ -27,17 +21,6 @@
   font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
-  color: var(--color-black);
-  font-size: 17rem;
-  bottom: -10rem;
-}
-
-.scrolled-anthony {
-  position: absolute;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  text-transform: uppercase;
   animation: scroll 0.8s;
   top: 0;
   font-size: 6rem;
@@ -45,35 +28,10 @@
 }
 
 .nav-links-container {
-  opacity: 0;
-}
-
-.scrolled-nav-links-container {
   animation: fadeIn 3s;
   display: flex;
   gap: 4rem;
   font-size: 2rem;
   opacity: 1;
   color: var(--color-turquoise-dark);
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateY(50%);
-    font-size: 17rem;
-  }
-  100% {
-    top: 0;
-    color: var(--color-turquoise-dark);
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    color: var(--color-turquoise-dark);
-  }
 }

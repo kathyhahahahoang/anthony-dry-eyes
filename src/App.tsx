@@ -4,12 +4,10 @@ import AppLayout from "./ui/AppLayout";
 import Blog from "./pages/Blog";
 
 const router = createBrowserRouter([
+  { path: "/", element: <Home /> },
   {
     element: <AppLayout />,
-    children: [
-      { path: "/", element: <Home /> },
-      { path: "/blog", element: <Blog /> },
-    ],
+    children: [{ path: "/blog", element: <Blog /> }],
   },
 ]);
 
