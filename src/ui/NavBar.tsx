@@ -10,13 +10,13 @@ function NavBar() {
         </NavLink>
         <ul className={styles["nav-links-container"]}>
           <li>
+            <NavLink to="/about">About</NavLink>
+          </li>
+          <li>
             <NavLink to="/blog">Blog</NavLink>
           </li>
           <li>
-            <NavLink to="/products">Products</NavLink>
-          </li>
-          <li>
-            <NavLink to="/faq">FAQ</NavLink>
+            <NavLink to="/tips">Tips</NavLink>
           </li>
           <li>
             <NavLink to="/contact">Contact</NavLink>

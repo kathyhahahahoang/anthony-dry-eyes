@@ -2,18 +2,18 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import AppLayout from "./ui/AppLayout";
 import Blog from "./pages/Blog";
-import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
-import Products from "./pages/Products";
+import Tips from "./pages/Tips";
+import About from "./pages/About";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
   {
     element: <AppLayout />,
     children: [
+      { path: "/about", element: <About /> },
       { path: "/blog", element: <Blog /> },
-      { path: "/products", element: <Products /> },
-      { path: "/faq", element: <FAQ /> },
+      { path: "/tips", element: <Tips /> },
       { path: "/contact", element: <Contact /> },
     ],
   },
