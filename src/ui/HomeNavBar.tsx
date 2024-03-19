@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styles from "./HomeNavBar.module.scss";
 import { useEffect, useState } from "react";
 
@@ -30,9 +31,10 @@ function HomeNavBar() {
     setIsMobile(window.innerWidth < 650);
   };
 
-  const scrolledContainer = isScrolled
-    ? `${styles["scrolled-container"]}`
-    : `${styles.container}`;
+  const scrolledContainer =
+    isScrolled && !isMobile
+      ? `${styles["scrolled-container"]}`
+      : `${styles.container}`;
 
   const scrolledAnthony = isScrolled
     ? `${styles["scrolled-anthony"]}`
@@ -44,12 +46,22 @@ function HomeNavBar() {
   return (
     <div className={scrolledContainer}>
       <nav className={styles["nav-container"]}>
-        <p className={scrolledAnthony}>Anthony</p>
+        <NavLink to="/" className={scrolledAnthony}>
+          Anthony
+        </NavLink>
         <ul className={scrolledNavLinksContainer}>
-          <li>Blog</li>
-          <li>Products</li>
-          <li>FAQ</li>
-          <li>Contact</li>
+          <li>
+            <NavLink to="/blog">Blog</NavLink>
+          </li>
+          <li>
+            <NavLink to="/products">Products</NavLink>
+          </li>
+          <li>
+            <NavLink to="/faq">FAQ</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">Contact</NavLink>
+          </li>
         </ul>
       </nav>
     </div>
