@@ -1,5 +1,5 @@
 :root {
-  --color-blue-dark: #141f27;
+  /* --color-blue-dark: #141f27;
   --color-blue-med: #213341;
   --color-blue-light: #7a858d;
   --color-turquoise-dark: #025e6b;
@@ -9,11 +9,23 @@
   --color-sand-med: #d2bebf;
   --color-sand-light: #e4d8d9;
   --color-peach-med: #f5e7e4;
-  --color-peach-light: #fcf8f7;
+  --color-peach-light: #fcf8f7; */
 
-  --color-black: #000000;
+  --color-navy-dark: #222b3e;
+  --color-navy-med: #394867;
+  --color-navy-light: #8891a4;
+  --color-green-dark: #134038;
+  --color-green-med: #206a5d;
+  --color-green-light: #63978e;
+  --color-green-lightest: #bcd2ce;
+  /* --color-green-light: #79a69e; */
+  --color-grey-dark: #6d737f;
+  --color-grey-med: #d7dbe1;
+  --color-grey-light: #f5f6f8;
+
+  --color-black: #030406;
   --color-white: #fff;
-  --color-bg: #fefdfc;
+  --color-bg: #f1f6f9;
 
   --font-xl: 3rem;
   --font-large: 2.4rem;

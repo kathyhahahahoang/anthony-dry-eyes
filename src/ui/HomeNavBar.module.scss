@@ -9,7 +9,7 @@
   width: 100vw;
   height: 13rem;
   padding: 1.4rem;
-  background-color: var(--color-peach-light);
+  background-color: var(--color-grey-light);
 }
 
 .nav-container {
@@ -27,7 +27,7 @@
   font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
-  color: var(--color-black);
+  color: var(--color-green-dark);
   font-size: 17rem;
   bottom: -10rem;
 }
@@ -41,7 +41,7 @@
   animation: scroll 0.8s;
   top: 0;
   font-size: 6rem;
-  color: var(--color-turquoise-dark);
+  color: var(--color-green-light);
 }
 
 .nav-links-container {
@@ -54,7 +54,10 @@
   gap: 4rem;
   font-size: 2rem;
   opacity: 1;
-  color: var(--color-turquoise-dark);
+}
+
+.link {
+  color: var(--color-navy-dark);
 }
 
 @keyframes scroll {
@@ -64,7 +67,7 @@
   }
   100% {
     top: 0;
-    color: var(--color-turquoise-dark);
+    color: var(--color-green-light);
   }
 }
 
@@ -74,6 +77,6 @@
   }
   100% {
     opacity: 1;
-    color: var(--color-turquoise-dark);
+    color: var(--color-navy-dark);
   }
 }

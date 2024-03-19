@@ -4,7 +4,7 @@
   margin: 0 auto;
   position: relative;
   display: flex;
-  background-color: var(--color-turquoise-light);
+  background-color: var(--color-grey-med);
 
   @media (max-width: 1400px) {
     width: 100%;
@@ -68,7 +68,7 @@
 }
 
 .tour {
-  color: var(--color-red-dark);
+  color: var(--color-green-dark);
 
   @media (max-width: 800px) {
     font-size: var(--font-xl);
@@ -77,7 +77,7 @@
 
 .review {
   font-size: var(--font-med);
-  color: var(--color-blue-dark);
+  color: var(--color-navy-dark);
 
   @media (max-width: 800px) {
     font-size: var(--font-small);
@@ -91,7 +91,7 @@
 .name {
   font-size: var(--font-med);
   font-weight: 600;
-  color: var(--color-red-dark);
+  color: var(--color-green-dark);
 
   @media (max-width: 800px) {
     font-size: var(--font-small);
@@ -109,7 +109,7 @@
 .button {
   width: 4rem;
   height: 4rem;
-  color: var(--color-turquoise-dark);
+  color: var(--color-green-med);
   z-index: 400;
 
   @media (max-width: 800px) {
@@ -153,11 +153,11 @@
   height: 0.8rem;
   width: 0.8rem;
   margin: 0px 6px;
-  background-color: var(--color-sand-med);
+  background-color: var(--color-grey-med);
   border-radius: 50%;
   display: inline-block;
 }
 
 .active-dot {
-  background-color: var(--color-turquoise-dark);
+  background-color: var(--color-green-med);
 }

@@ -1,12 +1,12 @@
 .container {
   width: 100vw;
-  background-color: var(--color-bg);
+  background-color: var(--color-grey-light);
   padding: 10rem 25rem;
   text-align: center;
 }
 
 .section-header {
-  color: var(--color-turquoise-med);
+  color: var(--color-green-med);
 }
 
 .how-container {
@@ -17,7 +17,7 @@
 }
 
 .how-card {
-  background-color: var(--color-peach-med);
+  background-color: var(--color-grey-med);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,11 +34,11 @@
 
 .title {
   text-align: center;
-  color: var(--color-blue-dark);
+  color: var(--color-green-med);
 }
 
 .text {
   font-size: 1.6rem;
   line-height: 2.6rem;
-  color: var(--color-blue-dark);
+  color: var(--color-green-med);
 }
