@@ -11,7 +11,6 @@ import Footer from "../../components/Footer.tsx";
 function HomeContainer() {
   return (
     <div className={styles.container}>
-      <HomeNavBar />
       <Hero />
       <HowSection />
       <Heading />

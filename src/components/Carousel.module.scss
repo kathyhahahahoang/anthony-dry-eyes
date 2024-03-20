@@ -110,7 +110,6 @@
   width: 4rem;
   height: 4rem;
   color: var(--color-green-med);
-  z-index: 400;
 
   @media (max-width: 800px) {
     width: 3rem;
@@ -134,7 +133,6 @@
   right: -10rem;
   border: none;
   padding: none;
-  z-index: 90;
 }
 
 .dots {
@@ -143,7 +141,7 @@
   padding: 2px;
   display: flex;
   justify-content: center;
-  z-index: 200;
+
   position: absolute;
   bottom: -2rem;
 }

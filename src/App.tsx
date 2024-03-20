@@ -8,10 +8,10 @@ import About from "./pages/About";
 import BlogArticle from "./pages/BlogArticle";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
   {
     element: <AppLayout />,
     children: [
+      { path: "/", element: <Home /> },
       { path: "/about", element: <About /> },
       { path: "/blog", element: <Blog /> },
       { path: "/blog/article", element: <BlogArticle /> },
