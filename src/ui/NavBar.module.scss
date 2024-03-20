@@ -3,7 +3,6 @@
   padding: 2rem 6rem;
   position: fixed;
   z-index: 500;
-  animation: blurry 5s;
 }
 
 .container-scrolled {
@@ -37,14 +36,4 @@
 
 .link {
   color: white;
-}
-
-@keyframes blurry {
-  0% {
-    filter: blur(7px) brightness(70%);
-  }
-
-  100% {
-    filter: blur(0) brightness(100%);
-  }
 }

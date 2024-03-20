@@ -4,7 +4,7 @@ import desert from "../../assets/img/desert.jpg";
 
 function Hero() {
   return (
-    <div className={styles.blur}>
+    <>
       <div className={styles.container}>
         <img src={desert} className={styles.hero} />
         <div className={styles.box}>
@@ -18,7 +18,7 @@ function Hero() {
           </NavLink>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

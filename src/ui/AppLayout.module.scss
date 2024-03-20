@@ -6,3 +6,48 @@
 .main {
   overflow: hidden;
 }
+
+.blur {
+  width: 100vw;
+  height: 100vh;
+  animation: blurry 3s;
+  z-index: 2000;
+  position: fixed;
+}
+
+.blur-end {
+  width: 0;
+  height: 0;
+}
+
+@keyframes blurry {
+  0% {
+    backdrop-filter: blur(7px);
+    background-color: rgba(0, 0, 0, 0.287);
+  }
+
+  20% {
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.214);
+  }
+
+  40% {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.185);
+  }
+
+  60% {
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.129);
+  }
+
+  80% {
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.057);
+  }
+
+  100% {
+    backdrop-filter: blur(0);
+    background-color: none;
+  }
+}
