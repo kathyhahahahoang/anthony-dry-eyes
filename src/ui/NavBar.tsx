@@ -44,16 +44,24 @@ function NavBar() {
         </NavLink>
         <ul className={styles["nav-links-container"]}>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about" className={styles.link}>
+              About
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/blog">Blog</NavLink>
+            <NavLink to="/blog" className={styles.link}>
+              Blog
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/tips">Tips</NavLink>
+            <NavLink to="/tips" className={styles.link}>
+              Tips
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/contact" className={styles.link}>
+              Contact
+            </NavLink>
           </li>
         </ul>
       </nav>

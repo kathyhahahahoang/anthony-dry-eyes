@@ -2,11 +2,13 @@
   width: 100vw;
   padding: 2rem 6rem;
   position: fixed;
-  z-index: 1000;
+  z-index: 500;
+  animation: blurry 5s;
 }
 
 .container-scrolled {
-  background-color: antiquewhite;
+  background-color: var(--color-navy-med);
+  transition: all 0.2s;
 }
 
 .nav-container {
@@ -22,6 +24,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 
 .nav-links-container {
@@ -30,4 +33,18 @@
   gap: 4rem;
   font-size: 2rem;
   opacity: 1;
+}
+
+.link {
+  color: white;
+}
+
+@keyframes blurry {
+  0% {
+    filter: blur(7px) brightness(70%);
+  }
+
+  100% {
+    filter: blur(0) brightness(100%);
+  }
 }
