@@ -1,5 +1,7 @@
+import ContactContainer from "../ui/contact/ContactContainer";
+
 function Contact() {
-  return <p>Contact</p>;
+  return <ContactContainer />;
 }
 
 export default Contact;
