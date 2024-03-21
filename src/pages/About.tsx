@@ -1,5 +1,7 @@
+import AboutContainer from "../ui/about/AboutContainer";
+
 function About() {
-  return <p>About me</p>;
+  return <AboutContainer />;
 }
 
 export default About;
