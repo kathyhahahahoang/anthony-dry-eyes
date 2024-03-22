@@ -45,8 +45,8 @@
 
   --font-xl: 3rem;
   --font-large: 2.4rem;
-  --font-med: 2rem;
-  --font-small: 1.6rem;
+  --font-med: 1.6rem;
+  --font-small: 1.4rem;
   --font-xs: 1.2rem;
 
   --line-height-large: 3.4rem;
@@ -62,7 +62,7 @@
   }
 
   &:focus-visible {
-    outline: 2px solid var(--color-red-light);
+    outline: 2px solid var(--color-red-med);
   }
 }
 
@@ -118,5 +118,5 @@ h3 {
 }
 
 h4 {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
 }

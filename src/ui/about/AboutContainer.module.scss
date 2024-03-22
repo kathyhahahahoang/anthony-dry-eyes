@@ -1,41 +1,37 @@
 .container {
   width: 100vw;
   height: 100rem;
-  background-color: var(--color-grey-med);
-  display: flex;
-}
-
-.text-container {
-  width: 70%;
+  background-color: var(--color-navy-med);
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+}
+
+.text-container {
+  width: 30%;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  // background-color: aqua;
 }
 
 .text {
-  width: 50%;
+  width: 90%;
   font-size: var(--font-med);
 }
 
 .picture-container {
   width: 30%;
-  padding: 5rem;
-  background-color: var(--color-navy-med);
+  height: 60rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  gap: 2rem;
-  color: white;
-
-  h3 {
-    text-align: center;
-  }
+  // background-color: royalblue;
 }
 
 .picture {
-  width: 30rem;
-  height: 30rem;
+  width: 70%;
+  height: 50rem;
   object-fit: cover;
-  border-radius: 50%;
 }

@@ -5,6 +5,12 @@ function AboutContainer() {
   return (
     <div className={styles.container}>
       <div className={styles["text-container"]}>
+        <h3>
+          Dr. Anthony Mac
+          <br /> OD, MPH, FAAO
+          <br />
+          Doctor of Optometry
+        </h3>
         <div className={styles.text}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad
           labore, quaerat amet reiciendis libero quas sequi eius velit incidunt
@@ -21,15 +27,18 @@ function AboutContainer() {
       </div>
       <div className={styles["picture-container"]}>
         <img src={daddy} className={styles.picture} />
-        <h3>
-          Dr. Anthony Mac
-          <br /> OD, MPH, FAAO
-          <br />
-          Doctor of Optometry
-        </h3>
       </div>
     </div>
   );
 }
 
 export default AboutContainer;
+
+{
+  /* <h3>
+Dr. Anthony Mac
+<br /> OD, MPH, FAAO
+<br />
+Doctor of Optometry
+</h3> */
+}
