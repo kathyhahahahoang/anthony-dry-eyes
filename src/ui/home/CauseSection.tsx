@@ -14,43 +14,46 @@ function CauseSection() {
   return (
     <section className={styles.container}>
       <img src={shore} className={styles.shore} />
-      <h1 className={styles.header}>Common causes of dry eyes include</h1>
-      <div className={styles["cause-container"]}>
-        <div className={styles["cause-item"]}>
-          <img className={styles.picture} src={age} />
-          <p className={styles.text}>Age & gender</p>
-        </div>
-        <div className={styles["cause-item"]}>
-          <img className={styles.picture} src={blink} />
-          <p className={styles.text}>Poor blinking</p>
-        </div>
-        <div className={styles["cause-item"]}>
-          <img className={styles.picture} src={computer} />
-          <p className={styles.text}>Computer/Device usage</p>
-        </div>
-        <div className={styles["cause-item"]}>
-          <img className={styles.picture} src={hydration} />
-          <p className={styles.text}>Insufficient hydration</p>
-        </div>
-        <div className={styles["cause-item"]}>
-          <img className={styles.picture} src={environment} />
-          <p className={styles.text}>Climate & environment</p>
-        </div>
-        <div className={styles["cause-item"]}>
-          <img className={styles.picture} src={disease} />
-          <p className={styles.text}>Systemic diseases</p>
-        </div>
-        <div className={styles["cause-item"]}>
-          <img className={styles.picture} src={contacts} />
-          <p className={styles.text}>Contact lens wear</p>
-        </div>
-        <div className={styles["cause-item"]}>
-          <img className={styles.picture} src={medication} />
-          <p className={styles.text}>Medications</p>
-        </div>
-        <div className={styles["cause-item"]}>
-          <img className={styles.picture} src={surgery} />
-          <p className={styles.text}>Eye surgery</p>
+      <div className={styles.overlay} />
+      <div className={styles["content-container"]}>
+        <h1>Common causes of dry eyes include</h1>
+        <div className={styles["cause-container"]}>
+          <div className={styles["cause-item"]}>
+            <img className={styles.picture} src={age} />
+            <p className={styles.text}>Age & gender</p>
+          </div>
+          <div className={styles["cause-item"]}>
+            <img className={styles.picture} src={blink} />
+            <p className={styles.text}>Poor blinking</p>
+          </div>
+          <div className={styles["cause-item"]}>
+            <img className={styles.picture} src={computer} />
+            <p className={styles.text}>Computer/Device usage</p>
+          </div>
+          <div className={styles["cause-item"]}>
+            <img className={styles.picture} src={hydration} />
+            <p className={styles.text}>Insufficient hydration</p>
+          </div>
+          <div className={styles["cause-item"]}>
+            <img className={styles.picture} src={environment} />
+            <p className={styles.text}>Climate & environment</p>
+          </div>
+          <div className={styles["cause-item"]}>
+            <img className={styles.picture} src={disease} />
+            <p className={styles.text}>Systemic diseases</p>
+          </div>
+          <div className={styles["cause-item"]}>
+            <img className={styles.picture} src={contacts} />
+            <p className={styles.text}>Contact lens wear</p>
+          </div>
+          <div className={styles["cause-item"]}>
+            <img className={styles.picture} src={medication} />
+            <p className={styles.text}>Medications</p>
+          </div>
+          <div className={styles["cause-item"]}>
+            <img className={styles.picture} src={surgery} />
+            <p className={styles.text}>Eye surgery</p>
+          </div>
         </div>
       </div>
     </section>
