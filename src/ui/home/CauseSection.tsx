@@ -1,4 +1,5 @@
 import styles from "./CauseSection.module.scss";
+import shore from "../../assets/img/shore.jpg";
 import age from "../../assets/img/age.jpg";
 import blink from "../../assets/img/blink.jpg";
 import computer from "../../assets/img/computer.jpg";
@@ -12,7 +13,8 @@ import surgery from "../../assets/img/surgery.jpg";
 function CauseSection() {
   return (
     <section className={styles.container}>
-      <h1>Common causes of dry eyes include</h1>
+      <img src={shore} className={styles.shore} />
+      <h1 className={styles.header}>Common causes of dry eyes include</h1>
       <div className={styles["cause-container"]}>
         <div className={styles["cause-item"]}>
           <img className={styles.picture} src={age} />

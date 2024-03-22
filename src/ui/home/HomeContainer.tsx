@@ -3,18 +3,18 @@ import ConsultationSection from "./ConsultationSection";
 import Heading from "./Heading";
 import Hero from "./Hero";
 import styles from "./HomeContainer.module.scss";
-import HowSection from "./HowSection";
 import Carousel from "../../components/Carousel.tsx";
 import CTA from "../../components/CTA.tsx";
+import How from "./How.tsx";
 
 function HomeContainer() {
   return (
     <div className={styles.container}>
       <Hero />
-      <HowSection />
-      <Heading />
-      <ConsultationSection />
+      <How />
+      {/* <Heading /> */}
       <CauseSection />
+      <ConsultationSection />
       <section style={{ padding: "8rem" }}>
         <Carousel />
       </section>
