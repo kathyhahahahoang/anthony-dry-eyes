@@ -11,7 +11,7 @@ function BlogContainer() {
     <div className={styles.container}>
       <div className={styles["new-container"]}>
         <div className={styles["new-container-text"]}>
-          <h3>Are dry eyes genetic?</h3>
+          <h2>Are dry eyes genetic?</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
             magnam corporis similique nulla.

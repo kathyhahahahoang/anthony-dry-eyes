@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import styles from "./HomeContainer.module.scss";
 import HowSection from "./HowSection";
 import Carousel from "../../components/Carousel.tsx";
+import CTA from "../../components/CTA.tsx";
 
 function HomeContainer() {
   return (
@@ -17,6 +18,7 @@ function HomeContainer() {
       <section style={{ padding: "8rem" }}>
         <Carousel />
       </section>
+      <CTA />
     </div>
   );
 }
