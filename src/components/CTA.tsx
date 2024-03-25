@@ -1,10 +1,10 @@
 import styles from "./CTA.module.scss";
-import ocean from "../assets/img/ocean.jpg";
+import cta from "../assets/img/cta.jpg";
 
 function CTA() {
   return (
     <div className={styles.container}>
-      <img src={ocean} className={styles.background} />
+      <img src={cta} className={styles.background} />
       <div className={styles["cta-container"]}>
         <h2>Ready to get started?</h2>
         <button className={styles.button}> Sign me up!</button>
