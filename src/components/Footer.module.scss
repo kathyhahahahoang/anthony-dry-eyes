@@ -1,18 +1,39 @@
 .container {
-  background-color: var(--color-grey-dark);
+  background-color: var(--color-red-dark);
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 5rem 25rem;
+  padding: 6rem;
 }
 
 .logo {
   font-size: 4rem;
+  color: white;
 }
 
 .content-container {
   display: flex;
-  gap: 4rem;
-  font-size: 1.4rem;
+  justify-content: space-between;
+}
+
+.links-container {
+  display: flex;
+  gap: 8rem;
+  font-size: var(--font-med);
+}
+
+.footer-title {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.info-details {
+  color: white;
+  p {
+    font-size: var(--font-small);
+  }
+}
+
+.telephone {
+  margin-top: 1.4rem;
 }
