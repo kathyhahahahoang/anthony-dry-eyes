@@ -1,0 +1,40 @@
+.container {
+  width: 100vw;
+  padding: 10rem 6rem;
+}
+
+.header {
+  color: var(--color-navy-dark);
+}
+
+.articles-container {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20%, 23%));
+  justify-content: space-between;
+  row-gap: 8rem;
+  //   background-color: aliceblue;
+}
+
+.article {
+  height: 100%;
+  //   background-color: rgb(123, 22, 106);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+
+  h3 {
+    color: var(--color-blue-dark);
+  }
+}
+
+.picture {
+  width: 100%;
+  height: 60rem;
+  object-fit: cover;
+}
+
+.date {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}

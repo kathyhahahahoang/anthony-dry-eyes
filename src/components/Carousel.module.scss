@@ -77,6 +77,7 @@
 
 .review {
   font-size: var(--font-med);
+  line-height: var(--line-height-med);
   color: var(--color-navy-dark);
 
   @media (max-width: 800px) {
@@ -109,7 +110,7 @@
 .button {
   width: 4rem;
   height: 4rem;
-  color: var(--color-green-med);
+  color: var(--color-red-dark);
 
   @media (max-width: 800px) {
     width: 3rem;
@@ -157,5 +158,5 @@
 }
 
 .active-dot {
-  background-color: var(--color-green-med);
+  background-color: var(--color-red-dark);
 }

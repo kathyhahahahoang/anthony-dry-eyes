@@ -5,6 +5,7 @@ import styles from "./HomeContainer.module.scss";
 import CTA from "../../components/CTA.tsx";
 import How from "./How.tsx";
 import ReviewsSection from "./ReviewsSection.tsx";
+import BlogSection from "./BlogSection.tsx";
 
 function HomeContainer() {
   return (
@@ -14,6 +15,7 @@ function HomeContainer() {
       {/* <Heading /> */}
       <CauseSection />
       <ConsultationSection />
+      <BlogSection />
       <ReviewsSection />
       {/* <CTA /> */}
     </div>
