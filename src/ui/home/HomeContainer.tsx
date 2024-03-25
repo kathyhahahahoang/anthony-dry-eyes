@@ -2,9 +2,9 @@ import CauseSection from "./CauseSection";
 import ConsultationSection from "./ConsultationSection";
 import Hero from "./Hero";
 import styles from "./HomeContainer.module.scss";
-import Carousel from "../../components/Carousel.tsx";
 import CTA from "../../components/CTA.tsx";
 import How from "./How.tsx";
+import ReviewsSection from "./ReviewsSection.tsx";
 
 function HomeContainer() {
   return (
@@ -14,10 +14,8 @@ function HomeContainer() {
       {/* <Heading /> */}
       <CauseSection />
       <ConsultationSection />
-      <section style={{ padding: "8rem" }}>
-        <Carousel />
-      </section>
-      <CTA />
+      <ReviewsSection />
+      {/* <CTA /> */}
     </div>
   );
 }

@@ -11,7 +11,7 @@ function How() {
           We here at ____ have also suffered from dry eyes. That's why we've
           made it our mission to help you overcome it, just as we have.
         </h1>
-        <h2>We got you covered in 3 easy steps</h2>
+        <h2>We've got you covered in 3 easy steps</h2>
       </div>
       <div className={styles["how-container"]}>
         <div className={styles["steps-container"]}>
