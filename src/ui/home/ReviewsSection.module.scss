@@ -1,29 +1,37 @@
 .container {
   width: 100vw;
-  padding: 10rem 0;
+  height: 70rem;
   position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 5rem;
+  // background-color: rgb(186, 148, 35);
 }
 
-.background {
-  position: absolute;
+.picture-container {
+  width: 60%;
+  height: 100%;
+}
+
+.picture {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.overlay {
-  width: 100%;
+.reviews-container {
+  width: 40%;
   height: 100%;
-  position: absolute;
-  background-color: rgba(160, 160, 160, 0.189);
+  // background-color: rgb(40, 109, 169);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .header {
-  z-index: 5;
-  margin-bottom: 5rem;
-  color: white;
+  color: var(--color-navy-med);
+  text-align: center;
 }

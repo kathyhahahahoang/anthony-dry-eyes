@@ -17,7 +17,8 @@ function HomeContainer() {
       <ConsultationSection />
       <BlogSection />
       <ReviewsSection />
-      {/* <CTA /> */}
+
+      <CTA />
     </div>
   );
 }
