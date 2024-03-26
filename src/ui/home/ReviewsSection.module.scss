@@ -1,29 +1,74 @@
+// .container {
+//   width: 100vw;
+//   height: 70rem;
+//   position: relative;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin-top: 5rem;
+//   // background-color: rgb(186, 148, 35);
+// }
+
+// .picture-container {
+//   width: 50%;
+//   height: 100%;
+// }
+
+// .picture {
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+// }
+
+// .reviews-container {
+//   width: 50%;
+//   height: 100%;
+//   // background-color: rgb(40, 109, 169);
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   gap: 2rem;
+// }
+
+// .header {
+//   color: var(--color-navy-med);
+//   text-align: center;
+// }
+
 .container {
   width: 100vw;
-  height: 70rem;
-  position: relative;
+  // background-color: aqua;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
-  // background-color: rgb(186, 148, 35);
+  gap: 6rem;
+  padding: 10rem 0;
 }
 
-.picture-container {
-  width: 60%;
-  height: 100%;
+.slider-container {
+  width: 90%;
+  // background-color: pink;
+  position: relative;
 }
 
-.picture {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.slide {
+  transform: scale(0.5);
+  transition: transform 300ms;
+  opacity: 0.5;
 }
 
-.reviews-container {
-  width: 40%;
-  height: 100%;
-  // background-color: rgb(40, 109, 169);
+.active-slide {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.review-container {
+  background-color: green;
+  width: 60rem;
+  height: 50rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +76,28 @@
   gap: 2rem;
 }
 
-.header {
-  color: var(--color-navy-med);
-  text-align: center;
+.review {
+  font-size: var(--font-large);
+  // background-color: orange;
+}
+
+.name {
+  font-size: var(--font-med);
+}
+
+.arrow {
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.arrow-left {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow-right {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
 }
