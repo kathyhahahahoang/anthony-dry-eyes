@@ -2,6 +2,7 @@ import styles from "./ReviewsSection.module.scss";
 import { useState } from "react";
 import Slider from "react-slick";
 import { RiArrowLeftLine, RiArrowRightLine } from "@remixicon/react";
+import ocean from "../../assets/img/ocean.jpg";
 
 const reviews = [
   {
@@ -68,22 +69,20 @@ There's only one answer, you just have to open it`,
 function ReviewsSection() {
   const NextArrow = ({ onClick }) => {
     return (
-      <div
-        className={`${styles["arrow-right"]} ${styles.arrow}`}
-        onClick={onClick}
-      >
-        <RiArrowRightLine />
+      <div onClick={onClick}>
+        <RiArrowRightLine
+          className={`${styles["arrow-right"]} ${styles.arrow}`}
+        />
       </div>
     );
   };
 
   const PrevArrow = ({ onClick }) => {
     return (
-      <div
-        className={`${styles["arrow-left"]} ${styles.arrow}`}
-        onClick={onClick}
-      >
-        <RiArrowLeftLine />
+      <div onClick={onClick}>
+        <RiArrowLeftLine
+          className={`${styles["arrow-left"]} ${styles.arrow}`}
+        />
       </div>
     );
   };
@@ -92,11 +91,11 @@ function ReviewsSection() {
 
   const settings = {
     infinite: true,
-    lazyLoad: true,
     speed: 300,
     slidesToShow: 3,
     centerMode: true,
-    centerPadding: 0,
+    centerPadding: "0",
+    draggable: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),
@@ -104,7 +103,8 @@ function ReviewsSection() {
 
   return (
     <div className={styles.container}>
-      <h1>Testimonials</h1>
+      <img src={ocean} className={styles.background} />
+      <h1 className={styles.header}>Testimonials</h1>
       <div className={styles["slider-container"]}>
         <Slider {...settings}>
           {reviews.map((el, index) => (
