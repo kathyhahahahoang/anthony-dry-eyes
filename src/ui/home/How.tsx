@@ -31,11 +31,8 @@ function How() {
           <div className={styles.step}>
             <h1>2. Discuss details</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ad,
-              magni officia assumenda autem ducimus. Nobis amet voluptas sunt,
-              velit aperiam ullam distinctio. Temporibus laudantium velit sequi
-              qui magni iure. Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Consequuntur eaque quis, quae beatae saepe incidunt non
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
               deleniti sint, magni laboriosam animi autem repellendus sapiente
               odio, porro ad quod eius voluptas.
             </p>
@@ -51,6 +48,7 @@ function How() {
               velit aperiam ullam distinctio. Temporibus laudantium velit sequi
               qui magni iure.
             </p>
+            <button>Sign me up</button>
           </div>
         </div>
       </div>

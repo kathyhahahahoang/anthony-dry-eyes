@@ -3,6 +3,10 @@
   padding: 2rem 6rem;
   position: fixed;
   z-index: 500;
+
+  @media (max-width: 1200px) {
+    padding: 2rem 4rem;
+  }
 }
 
 .container-scrolled {

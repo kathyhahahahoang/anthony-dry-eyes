@@ -9,6 +9,7 @@ import disease from "../../assets/img/disease.jpg";
 import contacts from "../../assets/img/contacts.jpg";
 import medication from "../../assets/img/medication.jpg";
 import surgery from "../../assets/img/surgery.jpg";
+import diet from "../../assets/img/diet.jpg";
 
 function CauseSection() {
   return (
@@ -45,6 +46,10 @@ function CauseSection() {
           <div className={styles["cause-item"]}>
             <img className={styles.picture} src={contacts} />
             <p className={styles.text}>Contact lens wear</p>
+          </div>
+          <div className={styles["cause-item"]}>
+            <img className={styles.picture} src={diet} />
+            <p className={styles.text}>Diet</p>
           </div>
           <div className={styles["cause-item"]}>
             <img className={styles.picture} src={medication} />
