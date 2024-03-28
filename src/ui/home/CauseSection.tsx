@@ -29,7 +29,7 @@ function CauseSection() {
           </div>
           <div className={styles["cause-item"]}>
             <img className={styles.picture} src={computer} />
-            <p className={styles.text}>Computer/Device usage</p>
+            <p className={styles.text}>Computer / Device usage</p>
           </div>
           <div className={styles["cause-item"]}>
             <img className={styles.picture} src={hydration} />
