@@ -4,6 +4,11 @@
   display: flex;
   justify-content: space-between;
   padding: 6rem;
+
+  @media (max-width: 1400px) {
+    flex-direction: column;
+    gap: 6rem;
+  }
 }
 
 .logo {
@@ -20,6 +25,11 @@
   display: flex;
   gap: 8rem;
   font-size: var(--font-med);
+
+  @media (max-width: 1400px) {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
 
 .footer-title {
@@ -29,6 +39,7 @@
 
 .info-details {
   color: white;
+
   p {
     font-size: var(--font-small);
   }
