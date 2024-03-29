@@ -99,6 +99,14 @@ function ReviewsSection() {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),
+    responsive: [
+      {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
