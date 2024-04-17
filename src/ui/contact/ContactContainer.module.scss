@@ -13,26 +13,69 @@
   margin-top: 20rem;
   width: 70%;
   height: 60rem;
-  //   background-color: palegoldenrod;
+  // background-color: palegoldenrod;
   display: flex;
+
+  @media (max-width: 1800px) {
+    width: 80%;
+    // background-color: lightblue;
+  }
+
+  @media (max-width: 1400px) {
+    width: calc(100% - 12rem);
+    height: 55rem;
+    // background-color: chartreuse;
+  }
+
+  @media (max-width: 1200px) {
+    width: calc(100% - 8rem);
+    height: 50rem;
+  }
+
+  @media (max-width: 1000px) {
+    width: 60%;
+    height: 100%;
+    // background-color: rgb(225, 74, 202);
+    flex-direction: column;
+  }
+
+  @media (max-width: 650px) {
+    width: 80%;
+  }
 }
 
 .contact {
   width: 50%;
-  //   background-color: brown;
+  // background-color: brown;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 }
 
 .form {
-  //   background-color: olive;
+  // background-color: olive;
   width: 70%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   padding: 2rem 0;
+
+  @media (max-width: 1800px) {
+    width: 80%;
+  }
+
+  @media (max-width: 1400px) {
+    width: 90%;
+  }
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 }
 
 .form-field {
@@ -63,6 +106,25 @@
   height: 50rem;
   object-fit: cover;
   right: 0;
+
+  @media (max-width: 1800px) {
+    width: 32rem;
+    height: 43rem;
+  }
+
+  @media (max-width: 1400px) {
+    width: 30rem;
+    height: 40rem;
+  }
+
+  @media (max-width: 1200px) {
+    width: 27rem;
+    height: 37rem;
+  }
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
 }
 
 .office {
@@ -71,12 +133,37 @@
   height: 30rem;
   object-fit: cover;
   bottom: 0rem;
-  left: 6rem;
+  right: 30rem;
+
+  @media (max-width: 1800px) {
+    width: 35rem;
+    height: 25rem;
+    right: 20rem;
+    bottom: 6rem;
+  }
+
+  @media (max-width: 1400px) {
+    width: 35rem;
+    height: 25rem;
+    right: 16rem;
+    bottom: 8rem;
+  }
+
+  @media (max-width: 1200px) {
+    width: 32rem;
+    height: 22rem;
+    right: 12rem;
+    bottom: 4rem;
+  }
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
 }
 
 .location-container {
   width: 70%;
-  //   background-color: goldenrod;
+  background-color: goldenrod;
   display: flex;
   gap: 5rem;
   margin-bottom: 20rem;
